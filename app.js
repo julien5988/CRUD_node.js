@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const Thing = require('./models/Thing');
 const thing = require('./models/Thing');
 
-mongoose.connect('mongodb+srv://julien:Noisette1488@cluster0.l6cao6w.mongodb.net/?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://julien:@cluster0.l6cao6w.mongodb.net/?retryWrites=true&w=majority',
 { useNewUrlParser: true,
     useUnifiedTopology: true })
     .then(() => console.log('Connexion à MongoDB réussie !'))
